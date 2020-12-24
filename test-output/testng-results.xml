@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-20T14:32:55Z" name="Suite" finished-at="2020-11-20T14:45:32Z" duration-ms="756799">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.cashFlowStatement.runner.TestRunner@12d4bf7e]" name="feature" class="com.qa.cashFlowStatement.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-11-20T14:32:55Z" name="Test" finished-at="2020-11-20T14:45:32Z" duration-ms="756799">
+      <class name="com.qa.cashFlowStatement.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.qa.cashFlowStatement.runner.TestRunner@12d4bf7e]" started-at="2020-11-20T20:02:55Z" name="setUpClass" finished-at="2020-11-20T20:02:56Z" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.cashFlowStatement.runner.TestRunner@12d4bf7e]" started-at="2020-11-20T20:02:56Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-20T20:15:31Z" duration-ms="755628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Testing on Cash Flow Statement Suite App]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.cashFlowStatement.runner.TestRunner@12d4bf7e]" started-at="2020-11-20T20:15:31Z" name="tearDownClass" finished-at="2020-11-20T20:15:32Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.cashFlowStatement.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
